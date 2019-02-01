@@ -4,6 +4,6 @@
 def key_for_min_value(name_hash)
   key_for_min_value.collect do |name, num|
     if num <= 1
-      true
+      return num
   end
 end
